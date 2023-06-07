@@ -8,15 +8,15 @@ import {
 } from "react-router-dom";
 
 //import components here
-import Layout from "./components/Layout";
+import Layout from "./client/components/Layout";
 
 //import pages here
-import Home from "./pages/Home";
-import Something from "./pages/Something";
+import Home from "./client/pages/Home";
+import Something from "./client/pages/Something";
 
 //sad path stuff here
-import Error from "./components/Error";
-import NotFound from "./pages/NotFound";
+import Error from "./client/components/Error";
+import NotFound from "./client/pages/NotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
