@@ -6,7 +6,9 @@
  - Example
 
 ## To Install:
-Fork and clone, then:
+Fork and clone
+Create your db in psql (name: )
+then:
 ```
 npm install
 npm start
