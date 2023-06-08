@@ -4,8 +4,7 @@ const app = require('./app');
 const chalk = require('chalk');
 
 //if seeding db:
-//const seed = require('../script/seed');
-//note: create a script directory with seed.js and data.js
+const seed = require('../script/seed');
 
 const init = async () => {
   try {
