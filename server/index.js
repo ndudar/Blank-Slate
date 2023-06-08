@@ -25,6 +25,5 @@ const init = async () => {
 //connect to database
 init();
 
-//build out seed stuff
 //may need to alter start script to run node server?
 //may want to build a .env file
