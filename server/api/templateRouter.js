@@ -1,5 +1,9 @@
 const router = require("express").Router();
 
+const {
+  models: { Template },
+} = require('../db');
+
 //GET method: index
 router.get("/", async (req, res, next) => {
   try {
@@ -61,8 +65,3 @@ router.delete("/:templateId", async (req, res, next) => {
 });
 
 module.exports = router;
-
-//set up db folder
-//set up models folder
-//make a template model
-//import template model here
