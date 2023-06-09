@@ -1,10 +1,14 @@
 const express = require('express');
 const app = express();
 const path = require("path");
+const cors = require('cors');
 
 //body parsing middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+//allows for use of different ports from backend to frontend
+app.use(cors());
 
 // Routes that will be accessed via AJAX should be prepended with
 // /api so they are isolated from our GET /* wildcard.
